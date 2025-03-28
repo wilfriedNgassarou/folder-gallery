@@ -1,11 +1,13 @@
 import { motion } from "motion/react"
 import { useState } from "react"
+import { Credits } from "./components/credits"
 
 function App() {
   const [isOpened, setIsOpened] = useState(false)
 
   return (
     <section className="w-full h-dvh flex justify-center items-center">
+      <Credits />
       <section
         onClick={() => setIsOpened(!isOpened)} 
         className="w-80 h-52 relative wrapper"
