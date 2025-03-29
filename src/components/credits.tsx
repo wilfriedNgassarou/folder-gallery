@@ -4,7 +4,7 @@ export function Credits() {
   return (
     <section className="absolute top-6 left-0 w-full px-10 lg:px-20 flex flex-col md:flex-row md:justify-between">
       <span>Coded by <Link href="https://x.com/Wilfried_Ng23">Wilfried Ngassarou</Link></span>
-      <span>Designed by <Link href="https://x.com/jakubkrehel">Jakub Krehel</Link></span>
+      <span>Designed by <Link href="https://x.com/vaunblu">Vaun Blu</Link></span>
     </section>
   )
 }
